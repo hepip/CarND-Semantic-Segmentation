@@ -1,9 +1,11 @@
-# Semantic Segmentation
+# Semantic Segmentation for Self Driving Cars
 
 ### Introduction
 This project labels the pixels of a road in images using a Fully Convolutional Network (FCN). 
 
 ![FCN](./images/FCN.png)
+
+The architecture and implementation of the FCN is based on the paper [Fully Convolutional Networks for Semantic Segmentation](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 
 ### Setup
 ##### GPU
