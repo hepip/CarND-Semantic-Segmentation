@@ -7,6 +7,29 @@ This project labels the pixels of a road in images using a Fully Convolutional N
 
 The architecture and implementation of the FCN is based on the paper [Fully Convolutional Networks for Semantic Segmentation](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 
+
+The Neural Network is trained with the Kitty Dataset with the following parameters:
+
+Epoch Size       : 50
+
+Batch Size       : 5
+
+Optimizer        : Adam Optimizer
+
+Loss Function    : Cross Entropy Loss
+
+Keep Probability : 0.5
+
+Learning Rate    : 0.0009
+
+
+
+Below are some sample inference on the Kitty Dataset:
+
+![inference1](./images/inference1.png)
+![inference2](./images/inference2.png)
+
+
 ### Setup
 ##### GPU
 `main.py` will check to make sure you are using GPU - if you don't have a GPU on your system, you can use AWS or another cloud computing platform.
